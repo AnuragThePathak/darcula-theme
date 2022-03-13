@@ -188,13 +188,6 @@
 			}
 		},
 		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#b17734",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Types",
 			"scope": [
 				"support.class",
@@ -202,7 +195,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#5972a3"
+				"foreground": "#c44d8c"
 			}
 		},
 		{
@@ -227,6 +220,7 @@
 			"scope": [
 				"keyword",
 				"storage.modifier",
+				"storage.type",
 				"keyword.control",
 				"keyword.operator.new",
 				"keyword.operator.expression",
@@ -368,7 +362,6 @@
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
 				"storage.type.primitive.groovy",
-
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
 				"support.constant.math",
