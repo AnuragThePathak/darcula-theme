@@ -2,7 +2,7 @@
     "name": "dracula-theme",
     "displayName": "Darcula Theme by Anurag",
     "description": "Darcula Theme similar to the one in Jetbrains IDEs.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "publisher": "anuragpathak",
     "engines": {
