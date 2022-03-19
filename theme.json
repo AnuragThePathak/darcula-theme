@@ -155,7 +155,9 @@
 				"support.constant.media-type",
 				"support.constant.media",
 				"constant.other.color.rgb-value",
-				"constant.other.rgb-value"
+				"constant.other.rgb-value",
+				"meta.jsx.children.tsx",
+				"meta.jsx.children.jsx"
 			],
 			"settings": {
 				"foreground": "#ce9178"
