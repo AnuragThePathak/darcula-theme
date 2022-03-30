@@ -219,6 +219,12 @@
 			}
 		},
 		{
+			"scope": "source.go",
+			"settings": {
+				"foreground": "#6d9c97"
+			}
+		},
+		{
 			"scope": [
 				"keyword",
 				"storage.modifier",
