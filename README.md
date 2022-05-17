@@ -4,10 +4,14 @@ Darcula Theme similar to the one in Jetbrains IDEs but modified a little for my 
 
 ## Preview
 
-- Javascript
-  ![JS-Preview](js-preview.png)
 - Golang
   ![Golang-Preview](go-preview.png)
+- Javascript
+  ![JS-Preview](js-preview.png)
+- Typescript
+  ![TS-Preview](typescript-preview.png)
+- Java
+  ![Java-Preview](java-preview.png)
 
 ## Contributing
 
