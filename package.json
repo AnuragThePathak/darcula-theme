@@ -2,7 +2,7 @@
     "name": "dracula-theme",
     "displayName": "Darcula Theme by Anurag",
     "description": "Darcula Theme similar to the one in Jetbrains IDEs.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "license": "MIT",
     "publisher": "anuragpathak",
     "engines": {
@@ -11,10 +11,10 @@
     "categories": [
         "Themes"
     ],
-    "homepage": "https://github.com/AnuragThePathak/dracula-theme",
+    "homepage": "https://github.com/AnuragThePathak/darcula-theme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AnuragThePathak/dracula-theme.git"
+        "url": "https://github.com/AnuragThePathak/darcula-theme.git"
     },
     "icon": "icon.png",
     "contributes": {
