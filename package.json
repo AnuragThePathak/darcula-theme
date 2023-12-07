@@ -2,7 +2,7 @@
     "name": "dracula-theme",
     "displayName": "Darcula Theme by Anurag",
     "description": "Darcula Theme similar to the one in Jetbrains IDEs.",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "license": "MIT",
     "publisher": "anuragpathak",
     "engines": {
@@ -37,6 +37,6 @@
     },
     "devDependencies": {
         "esbuild": "^0.14.24",
-        "vsce": "^2.6.7"
+        "@vscode/vsce": "^2.22.0"
     }
 }
