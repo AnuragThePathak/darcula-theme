@@ -1,14 +1,19 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
-		"list.dropBackground": "#383b3d",
-		"editor.foreground": "#d4d4d4",
-		"editor.background": "#2b2b24",
-		"sideBar.background": "#1e1e1f",
-		"editor.lineHighlightBackground": "#2A2A2B",
-		"editor.inactiveSelectionBackground": "#3a3d41",
-		"editor.selectionHighlightBackground": "#add6ff26",
-		"editorIndentGuide.background": "#404040"
+		"list.dropBackground": "#3A3934",
+		"editor.foreground": "#D0D0D0",
+		"editor.background": "#2B2A26",
+		"sideBar.background": "#262622",
+		"activityBar.background": "#20201D",
+		"editor.lineHighlightBackground": "#34332E",
+		"editor.inactiveSelectionBackground": "#6A6A5A2A",
+		"editor.selectionHighlightBackground": "#7A7A6655",
+		"editor.wordHighlightBackground": "#6A6A5A36",
+		"editor.wordHighlightStrongBackground": "#6A6A5A66",
+		"editorCursor.foreground": "#D8B56A",
+		"editorIndentGuide.background1": "#3F3E3A"
 	},
 	"tokenColors": [
 		{

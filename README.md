@@ -1,19 +1,68 @@
-# Darcula Theme by Anurag
+# Darcula (JetBrains) Theme — by Anurag Pathak
 
-Darcula Theme similar to the one in Jetbrains IDEs but modified a little for my personal need. Works well in C/C++, Java, Golang, Javascript, and Typescript. For the best look in Golang, enable Gopls UI semantic tokens. It must be noted it's not possible to have an exact Jetbrains Darcula theme because their theme varies slightly from IDE to IDE. In this case, we are using a single theme to support all the languages.
+A **Darcula dark theme inspired by JetBrains IDEs** such as **IntelliJ IDEA, GoLand, WebStorm, and Rider**, adapted for **VS Code**.
 
-## Preview
+This theme is slightly modified to suit my personal workflow while staying close to the original JetBrains Darcula look and feel.
 
-- Golang
-  ![Golang-Preview](go-preview.png)
-- Javascript
-  ![JS-Preview](js-preview.png)
-- Typescript
-  ![TS-Preview](typescript-preview.png)
-- Java
-  ![Java-Preview](java-preview.png)
+> ⚠️ Note: This is **Darcula (JetBrains)** — not the Dracula theme.
+
+---
+
+## Why this theme?
+
+JetBrains’ Darcula theme differs slightly across IDEs (IntelliJ, GoLand, WebStorm, etc.), so an exact 1:1 replica isn’t possible.  
+This theme uses a **single, consistent color system** that works well across multiple languages in VS Code.
+
+It is optimized primarily for:
+- **Golang**
+- **Java**
+- **C / C++**
+- **JavaScript**
+- **TypeScript**
+
+---
+
+## Language-specific notes
+
+### Golang
+For the best experience in Go:
+- Enable **gopls semantic tokens**
+- Enable **UI semantic highlighting** in VS Code
+
+This significantly improves readability and token accuracy.
+
+---
+
+## Previews
+
+### Golang
+![Golang Preview](go-preview.png)
+
+### JavaScript
+![JavaScript Preview](js-preview.png)
+
+### TypeScript
+![TypeScript Preview](typescript-preview.png)
+
+### Java
+![Java Preview](java-preview.png)
+
+---
 
 ## Contributing
 
-Feel free to [create issues](https://github.com/AnuragThePathak/darcula-theme/issues) if you face any issues or need a new feature. Please note that the above-mentioned languages will always have higher priority.
-If you'd like to contribute to this theme, you can fix any of the available issues. It's highly recommended not to make PR directly as what you're thinking might not be useful for others.
+If you encounter issues or want improvements, feel free to  
+👉 [Create an issue](https://github.com/AnuragThePathak/darcula-theme/issues)
+
+Priority will always be given to:
+- Go
+- Java
+- C / C++
+- JavaScript / TypeScript
+
+If you’d like to contribute code, please **open an issue first** instead of submitting a direct PR — changes that work for one setup may not be useful for others.
+
+---
+
+—  
+Created by **Anurag Pathak**

@@ -11,6 +11,18 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "darcula",
+        "jetbrains",
+        "intellij",
+        "jetbrains darcula",
+        "dark theme",
+        "ide theme",
+        "developer theme",
+        "backend",
+        "java",
+        "go"
+    ],
     "homepage": "https://github.com/AnuragThePathak/darcula-theme",
     "repository": {
         "type": "git",
@@ -22,7 +34,7 @@
             {
                 "label": "Darcula Theme by Anurag",
                 "uiTheme": "vs-dark",
-                "path": "theme.json"
+                "path": "./theme.json"
             }
         ]
     },
@@ -37,6 +49,7 @@
     },
     "devDependencies": {
         "@vscode/vsce": "^2.22.0",
-        "esbuild": "^0.25.0"
+        "esbuild": "^0.25.0",
+        "ovsx": "^0.10.7"
     }
 }
