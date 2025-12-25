@@ -1,3 +1,30 @@
+# ----------------------------
+# Development / repo metadata
+# ----------------------------
+.github/
+.vscode/
+.gitignore
+
+# ----------------------------
+# Dependencies & build inputs
+# ----------------------------
+node_modules/
+package-lock.json
+
+# ----------------------------
+# Build artifacts (not needed)
+# ----------------------------
+out/
+*.vsix
+
+# ----------------------------
+# Preview images (README-only)
+# ----------------------------
 *.png
 !icon.png
-.github
+
+# ----------------------------
+# Editor / OS noise
+# ----------------------------
+.DS_Store
+Thumbs.db

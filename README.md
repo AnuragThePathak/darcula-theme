@@ -1,42 +1,107 @@
-# Darcula (JetBrains) Theme — by Anurag Pathak
+# Darcula Theme by Anurag
 
-A **Darcula dark theme inspired by JetBrains IDEs** such as **IntelliJ IDEA, GoLand, WebStorm, and Rider**, adapted for **VS Code**.
+A **JetBrains Darcula–inspired dark theme for VS Code**, designed for long backend coding sessions with a strong focus on **Go**, **Java**, and **TypeScript**.
 
-This theme is slightly modified to suit my personal workflow while staying close to the original JetBrains Darcula look and feel.
+This theme emphasizes:
+- Semantic correctness
+- Low eye strain
+- Clear distinction between types, constants, keywords, and symbols
 
-> ⚠️ Note: This is **Darcula (JetBrains)** — not the Dracula theme.
-
----
-
-## Why this theme?
-
-JetBrains’ Darcula theme differs slightly across IDEs (IntelliJ, GoLand, WebStorm, etc.), so an exact 1:1 replica isn’t possible.  
-This theme uses a **single, consistent color system** that works well across multiple languages in VS Code.
-
-It is optimized primarily for:
-- **Golang**
-- **Java**
-- **C / C++**
-- **JavaScript**
-- **TypeScript**
+> Note: This is inspired by JetBrains Darcula, not an official JetBrains theme.
 
 ---
 
-## Language-specific notes
+## Features
 
-### Golang
-For the best experience in Go:
-- Enable **gopls semantic tokens**
-- Enable **UI semantic highlighting** in VS Code
+- JetBrains Darcula–inspired dark color palette
+- Optimized for Go with semantic token support
+- Clear distinction between types, constants, keywords, and packages
+- Comfortable contrast for long backend coding sessions
+- Works well with JetBrains Mono and antialiased font rendering
 
-This significantly improves readability and token accuracy.
+---
+
+## What this theme is (and isn’t)
+
+JetBrains’ Darcula is not just a color palette — it is a readability-first design system.
+This theme preserves that philosophy while embracing VS Code’s semantic tokens
+and modern language servers.
+
+This is NOT a pixel-perfect replica of 2020 IntelliJ Darcula.
+Instead, it is a modern Darcula interpretation built specifically for VS Code.
+
+Design goals:
+- Long-session comfort
+- Semantic clarity
+- Minimal visual noise
+- Strong backend language support
+
+---
+
+## Primary language support
+
+Actively optimized and maintained for:
+
+- Go (first-class support)
+- Java
+- C / C++
+- JavaScript
+- TypeScript
+- Python (baseline support)
+
+Other languages inherit safe defaults without compromising Go.
+
+---
+
+## Golang (important)
+
+For the intended Go experience, enable semantic highlighting:
+
+{
+  "editor.semanticHighlighting.enabled": true,
+  "gopls": {
+    "ui.semanticTokens": true
+  }
+}
+
+This theme relies heavily on semantic tokens to differentiate:
+
+- Structs vs interfaces
+- Exported vs unexported symbols
+- Packages vs fields vs methods
+- Constants and language keywords such as nil, true, and false
+
+---
+
+## Font and rendering (strongly recommended)
+
+This theme is designed and tested with:
+
+- JetBrains Mono
+- Antialiased font rendering
+
+Recommended settings:
+
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "workbench.fontAliasing": "antialiased"
+}
+
+Correct font rendering significantly improves:
+- Color balance
+- Contrast perception
+- Overall eye comfort
 
 ---
 
 ## Previews
 
-### Golang
-![Golang Preview](go-preview.png)
+### Go
+![Go Preview](go-preview.png)
+
+### Java
+![Java Preview](java-preview.png)
 
 ### JavaScript
 ![JavaScript Preview](js-preview.png)
@@ -44,25 +109,40 @@ This significantly improves readability and token accuracy.
 ### TypeScript
 ![TypeScript Preview](typescript-preview.png)
 
-### Java
-![Java Preview](java-preview.png)
+---
+
+## Design principles
+
+- Dark, muted background with low eye fatigue
+- No neon or overly saturated colors
+- Clear differentiation between:
+  - Constants
+  - Types
+  - Interfaces
+  - Structs
+  - Packages
+  - Keywords like nil, null, and booleans
+- Semantic correctness over decorative styling
 
 ---
 
 ## Contributing
 
-If you encounter issues or want improvements, feel free to  
-👉 [Create an issue](https://github.com/AnuragThePathak/darcula-theme/issues)
+If you encounter issues or want improvements, feel free to open an issue:
 
-Priority will always be given to:
-- Go
-- Java
-- C / C++
-- JavaScript / TypeScript
+https://github.com/AnuragThePathak/darcula-theme/issues
 
-If you’d like to contribute code, please **open an issue first** instead of submitting a direct PR — changes that work for one setup may not be useful for others.
+Priority languages:
+1. Go
+2. Java
+3. C / C++
+4. JavaScript / TypeScript
+
+Please open an issue before submitting a pull request.
+Theme changes are conservative by design.
 
 ---
 
-—  
-Created by **Anurag Pathak**
+Created by Anurag Pathak  
+Inspired by JetBrains Darcula  
+Built for Visual Studio Code
