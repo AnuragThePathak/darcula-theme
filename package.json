@@ -41,11 +41,7 @@
     "scripts": {
         "publish": "vsce publish",
         "build": "vsce package",
-        "vscode:prepublish": "npm run esbuild-base -- --minify",
-        "esbuild-base": "esbuild ./theme.json --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
-        "esbuild": "npm run esbuild-base -- --sourcemap",
-        "esbuild-watch": "npm run esbuild-base -- --sourcemap --watch",
-        "test-compile": "tsc -p ./"
+        "publish:ovsx": "ovsx publish"
     },
     "devDependencies": {
         "@vscode/vsce": "^2.22.0",
