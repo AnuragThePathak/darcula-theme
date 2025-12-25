@@ -103,11 +103,11 @@ Correct font rendering significantly improves:
 ### Java
 ![Java Preview](java-preview.png)
 
-### JavaScript
-![JavaScript Preview](js-preview.png)
+### Typescript
+![Typescript Preview](ts-preview.png)
 
-### TypeScript
-![TypeScript Preview](typescript-preview.png)
+### Python
+![Python Preview](python-preview.png)
 
 ---
 
