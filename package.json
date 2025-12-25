@@ -41,7 +41,7 @@
     "scripts": {
         "publish": "vsce publish",
         "build": "vsce package",
-        "publish:ovsx": "ovsx publish"
+        "publish:ovsx": "node ./scripts/publish-ovsx.js"
     },
     "devDependencies": {
         "@vscode/vsce": "^2.22.0",
