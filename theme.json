@@ -13,7 +13,17 @@
 		"editor.wordHighlightBackground": "#6A6A5A36",
 		"editor.wordHighlightStrongBackground": "#6A6A5A66",
 		"editorCursor.foreground": "#D8B56A",
-		"editorIndentGuide.background1": "#3F3E3A"
+		"editorIndentGuide.background1": "#3F3E3A",
+		"editorBracketHighlight.foreground1": "#E2C27A",
+		"editorBracketHighlight.foreground2": "#D2B36F",
+		"editorBracketHighlight.foreground3": "#C2A565",
+		"editorBracketHighlight.foreground4": "#B2965B",
+		"editorBracketHighlight.foreground5": "#A28752",
+		"editorBracketHighlight.foreground6": "#92794A",
+		"editorBracketPairGuide.background1": "#3F3E3A",
+		"editorBracketPairGuide.background2": "#3A3934",
+		"editorBracketPairGuide.background3": "#35342F",
+		"editorStickyScroll.background": "#262622"
 	},
 	"tokenColors": [
 		{
