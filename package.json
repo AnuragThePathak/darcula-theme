@@ -44,8 +44,7 @@
         "publish:ovsx": "node ./scripts/publish-ovsx.js"
     },
     "devDependencies": {
-        "@vscode/vsce": "^2.22.0",
-        "esbuild": "^0.25.0",
-        "ovsx": "^0.10.7"
+        "@vscode/vsce": "^3.9.1",
+        "ovsx": "^0.10.12"
     }
 }
